@@ -1,7 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .navbar-brand, .nav-link{
     color:white;
     
 }
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+
 
 .rrss{
     font-size: 23px;
@@ -10,4 +22,17 @@
 .rrss>a{
     padding: 0px 4px;
     color:aliceblue;
+}
+
+.bgFondoHome{
+    background-image: url(/assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+.titlePrincipal{
+    padding: 40px ;
+    display: flex;
+    justify-content: space-between;
 }
