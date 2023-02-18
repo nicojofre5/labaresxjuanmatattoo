@@ -32,17 +32,20 @@
     background-position: bottom;
 }
 .titlePrincipal{
-    padding: 280px 0px 0px 30px;
-    margin: 0px;
+    padding: 280px 0px 0px 0px;
+    
 }
 .titlePrincipal>h3{
-    -webkit-text-stroke:1px rgb(62, 36, 41);
+    -webkit-text-stroke:1px rgb(63, 23, 31);
     color:rgb(196, 196, 196);
-    font-size:26px;
+    font-size:35px;
+    font-family: sans-serif;
 }
 .btnTurno>button{
     color: white;
-    background-color: rgb(71, 68, 68);
+    background-color: rgb(63, 23, 31);
     border-radius: 4px;
     padding: 8px;
+    margin: 20px 0px 0px;
+    font-size: 20px;
 }
