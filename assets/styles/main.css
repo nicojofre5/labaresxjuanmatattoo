@@ -34,6 +34,16 @@
 .titlePrincipal{
     padding: 280px 0px 0px 30px;
     margin: 0px;
-    color:white;
-    -webkit-text-stroke:1px grey;
+}
+.titlePrincipal>h3{
+    -webkit-text-stroke:1px rgb(62, 36, 41);
+    color:rgb(196, 196, 196);
+    font-size:26px;
+}
+.btnTurno>button{
+    color: white;
+    background-color: rgb(71, 68, 68);
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px 140px;
 }
