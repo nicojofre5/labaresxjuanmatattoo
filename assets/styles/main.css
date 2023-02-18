@@ -32,7 +32,8 @@
     background-position: bottom;
 }
 .titlePrincipal{
-    padding: 40px ;
-    display: flex;
-    justify-content: space-between;
+    padding: 280px 0px 0px 30px;
+    margin: 0px;
+    color:white;
+    -webkit-text-stroke:1px grey;
 }
