@@ -11,6 +11,7 @@
 .navbar{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 
@@ -25,7 +26,7 @@
 }
 
 .bgFondoHome{
-    background-image: url(/assets/img/fondo.jpg);
+    background-image:linear-gradient(rgba(59, 58, 58, 0.63),rgba(0, 0, 0, 0.89)),url(/assets/img/fondo.jpg);
     background-repeat: no-repeat;
     min-height: 100vh;
     background-size: cover;
@@ -48,4 +49,19 @@
     padding: 8px;
     margin: 20px 0px 0px;
     font-size: 20px;
+}
+
+/*Cards*/
+
+.card{
+    background-color: black;
+    margin: 15px 0px;
+}
+
+.contCards{
+    display: flex;
+    flex-direction:row;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
