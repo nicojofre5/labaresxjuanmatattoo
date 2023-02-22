@@ -98,3 +98,18 @@ footer{
 .contQuestions,.contContacto{
     padding: 70px;
 }
+
+@font-face {
+    font-family: 'Bombing';
+    src: url(/assets/fonts/Bombing.ttf);
+}
+
+.logoFooter{
+    font-family: Bombing;
+    color: white;
+    font-size: 30px;
+}
+.navbar-brand{
+    font-family: Bombing;
+    font-size: 37px;
+}
