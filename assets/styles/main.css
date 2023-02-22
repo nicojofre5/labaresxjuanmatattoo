@@ -29,9 +29,31 @@
 }
 
 .rrss>a{
-    padding: 0px 4px;
-    color:aliceblue;
+    padding: 0px 5px;
+    color:white;
+    
 }
+.fa-brands:hover{
+    padding:2px;
+    transition: 0.8s;
+    border-radius: 8px;
+}
+.fa-instagram:hover{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    border-radius: 8px;  
+}
+.fa-whatsapp:hover{
+    background: rgb(5, 159, 48);
+    border-radius: 15px;
+}
+.fa-telegram:hover{
+    color: rgb(2, 100, 142);
+    background-color: white;
+    border-radius: 15px;
+}
+   
 
 .bgFondoHome{
     background-image:linear-gradient(rgba(59, 58, 58, 0.63),rgba(0, 0, 0, 0.89)),url(/assets/img/fondo.jpg);
