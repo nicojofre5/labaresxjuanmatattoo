@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.navbar-brand, .nav-link{
+.nav-link{
+    font-family: 'Rye', cursive;
+    font-size: 17px;
     color:white;
+    
     
 }
 
@@ -14,7 +17,12 @@
     z-index: 1;
 }
 
-
+.nav-link:hover{
+    text-decoration: underline;
+    background-color:rgba(68, 68, 68, 0.947);
+    color: white;
+    border-radius: 4px;
+}
 
 .rrss{
     font-size: 23px;
@@ -33,7 +41,10 @@
     background-position: bottom;
 }
 .titlePrincipal{
-    padding: 280px 0px 0px 0px;
+    padding: 300px 0px 0px 0px;
+    font-size: 45px;
+    color: aliceblue;
+    -webkit-text-stroke: 2px grey;
     
 }
 .titlePrincipal>h3{
@@ -105,11 +116,12 @@ footer{
 }
 
 .logoFooter{
-    font-family: Bombing;
+    font-family: 'Bombing';
     color: white;
     font-size: 30px;
 }
 .navbar-brand{
-    font-family: Bombing;
+    font-family: 'Bombing';
     font-size: 37px;
+    margin: 0px 40px 0px 0px;
 }
