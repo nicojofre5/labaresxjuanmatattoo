@@ -11,6 +11,9 @@
     padding: 8px 10px;
     position: relative;
 }
+.nav-item{
+    margin: 0px 4px 0px;
+}
 
 .navbar{
     position: fixed;
@@ -18,12 +21,16 @@
     z-index: 1;
 
 }
-
-.nav-link:hover,.active{
+.active{
+    border-top: 1px solid whitesmoke;
+    background-color: #474747;
+    border-radius: 4px;
+}
+.nav-link:hover{
     background-color:rgba(71, 70, 70, 0.947);
     color: white;
     border-radius: 4px;
-    border-bottom: 1px solid whitesmoke;
+  
     
 }
 .nav-link::after{
@@ -33,6 +40,7 @@
     height: 2px;
     width: 0;
     transition: width .3s;
+    
 }
 .nav-link:hover::after{
     width: 100%;
@@ -117,10 +125,6 @@
     font-size: 20px;
     font-family: 'Forum', cursive;
 }
-.btnTurno:hover{
-
-
-}
 
 /*Cards*/
 
@@ -149,10 +153,13 @@
     width: 280px;
 }   
 #Works>h4,#Questions>h4,#Contact>h4{
-    padding: 20px 15px;
-    margin: 95px 0px 40px 50px;
-    border: 1px solid black;
-    display: inline-block;
+    text-align: center;
+    padding: 120px 0px 80px;
+    background-image:linear-gradient(rgba(19, 18, 18, 0.836),rgb(0, 0, 0)),url(/assets/img/titles.jpg);
+    background-position: center;
+    color: white;
+    background-size: cover;
+    border: 1px;
 }
 
 /*Comienza el footer*/
