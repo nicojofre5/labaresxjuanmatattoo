@@ -6,9 +6,7 @@
 .nav-link{
     font-family: 'Rye', cursive;
     font-size: 17px;
-    color:white;
-    
-    
+    color:white;  
 }
 
 .navbar{
@@ -25,28 +23,32 @@
 }
 
 .rrss{
-    font-size: 23px;
+    font-size: 27px;
+
 }
 
 .rrss>a{
     padding: 0px 5px;
     color:white;
+
     
 }
-.fa-brands:hover{
-    padding:2px;
-    transition: 0.8s;
-    border-radius: 8px;
+.fa-brands{
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
+
 .fa-instagram:hover{
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-    border-radius: 8px;  
+    border-radius: 8px;
+    
 }
+
 .fa-whatsapp:hover{
     background: rgb(5, 159, 48);
     border-radius: 15px;
+  
+    
 }
 .fa-telegram:hover{
     color: rgb(2, 100, 142);
@@ -61,10 +63,11 @@
     min-height: 100vh;
     background-size: cover;
     background-position: bottom;
+    padding: 80px 0px 0px;
 }
 .titlePrincipal{
     padding: 300px 0px 0px 0px;
-    font-size: 45px;
+    font-size:58px;
     color: aliceblue;
     -webkit-text-stroke: 2px grey;
     
@@ -75,13 +78,22 @@
     font-size:35px;
     font-family: sans-serif;
 }
-.btnTurno>button{
-    color: white;
-    background-color: rgb(63, 23, 31);
-    border-radius: 4px;
-    padding: 8px;
-    margin: 20px 0px 0px;
-    font-size: 20px;
+
+.btnReservar{
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+  background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+
+}
+
+.btnReservar:hover{
+    color: #f0094a;
+    background: transparent;
+     box-shadow:none;
 }
 
 /*Cards*/
@@ -141,6 +153,7 @@ footer{
     font-family: 'Bombing';
     color: white;
     font-size: 30px;
+    
 }
 .navbar-brand{
     font-family: 'Bombing';
