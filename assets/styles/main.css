@@ -100,7 +100,7 @@
     font-family: 'Forum', cursive;
 }
 .btnTurno:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(44, 4, 4);
     transition: 0.6s;
 
 }
@@ -131,6 +131,14 @@
 .card>img{
     width: 280px;
 }   
+#Works>h4,#Questions>h4,#Contact>h4{
+    padding: 20px 15px;
+    margin: 95px 0px 40px 50px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/*Comienza el footer*/
 footer{
     background-color: #1b1b1b;
 
