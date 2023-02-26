@@ -154,7 +154,7 @@
     background-color: rgba(50, 50, 50, 0.947);
 }
 .subContGral{
-    background-image:linear-gradient(rgba(26, 25, 25, 0.902),rgb(14, 14, 14)),url(https://img.freepik.com/vector-premium/tatuajes-colores-patrones-fisuras-rosas-florecientes-calaveras-azucar-alambre-puas_225004-2681.jpg?w=2000);
+    background-image:linear-gradient(rgba(23, 23, 23, 0.769),rgba(57, 55, 55, 0.747)),url(https://static.imgs.app/content/assetz/uploads/2017/04/preto-e-branco-pattern-android-wallpaper-whatsapp-android-iphone.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     border-radius: 3px;
@@ -173,8 +173,9 @@
 }
 .accordion-button:focus{
     z-index: 0;
-    border:1px solid grey;
-    background-color: #474747;
+    border:1px solid grey; 
+    background-color: rgb(31, 31, 31);
+    color: white;
 }
 
 /*Comienza seccion contact */
