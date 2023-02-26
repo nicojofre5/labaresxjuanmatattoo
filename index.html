@@ -236,31 +236,31 @@
     <!--Comeinza contacto-->
         <section id="Contact">
             <h4>Contacto</h4>
-            <div class="container contContacto">
-              <form action="" method="post">
-                <div class="mb-3">
+            <div class="container contContacto col-6">
+              <form action="mailto:labaresxjuanma@outlook.com?Subject=Consulta%20de%20tattoo" enctype="text/plain" method="post">
+              
                   <fieldset>
-                    <label for="" class="form-label">Nombre</label>
+                    <label for="Nombre" class="form-label" name="Nombre">Nombre</label>
                       <input type="text"
-                      class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                      <small id="helpId" class="form-text text-muted">Help text</small>
+                      class="form-control" name="Nombre" id="Nombre" aria-describedby="helpId" placeholder="" required>
+                
                   </fieldset>
                   <fieldset>
-                    <label for="" class="form-label">Apellido</label>
+                    <label for="Apellido" class="form-label" name="Apellido">Apellido</label>
                       <input type="text"
-                      class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
-                      <small id="helpId" class="form-text text-muted">Help text</small>
+                      class="form-control" name="Apellido" id="Apellido" aria-describedby="LastName" placeholder="Escriba su apellido" required>
                   </fieldset>
                   <fieldset>
-                    <div class="mb-3">
-                      <label for="" class="form-label">Escribe tu consulta</label>
-                      <textarea class="form-control" name="" id="" rows="3"></textarea>
-                    </div>
+                    <label for="Consulta" class="form-label">Escribe tu consulta</label>
+                    <textarea class="form-control" name="Consulta" id="Consulta" rows="5" required>  
+                    </textarea>
                   </fieldset>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </div>      
+                  <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn">Enviar</button>
+                  </div>
+              
               </form>
-            </div>
+            </div>   
         </section>
     </main>
     <!--Comienza el footer-->

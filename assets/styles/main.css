@@ -129,17 +129,20 @@ body{
 
 }
 
-.btnReservar:hover{
+.btnReservar:hover,.btn:hover{
     background: linear-gradient(0deg, rgb(97, 26, 17) 0%, rgb(65, 21, 3) 100%);
 
 }
-.btnTurno{
+.btnTurno,.btn{
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Forum', cursive;
 }
-
+.btn{
+    background: linear-gradient(0deg, rgb(19, 3, 1) 0%, rgb(65, 21, 3) 100%);
+    margin: 50px 0px 0px;
+}
 /*Cards*/
 
 #Questions,#Contact{
@@ -194,7 +197,7 @@ body{
 
 }
 .contQuestions{
-    padding: 65px 45px;
+    padding: 55px 35px;
 }
 .accordion-button:focus{
     z-index: 0;
@@ -250,6 +253,29 @@ body{
     border-top:1px solid grey;
     
 }
+.form-control{
+    display: inline-block;
+}
+form{
+    width: 50%;
+}
+fieldset>input[name="Nombre"]{
+    background-color: beige;
+}
+.contContacto{
+    padding: 40px 55px;
+    color: white;
+    background-color: #181719;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%233d3c3e' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    border: 1px solid grey;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+
+}
+fieldset>label{
+    margin: 20px 0px;
+}
 
 #Questions>h4,#Contact>h4{
     margin: 55px 0px;
@@ -269,9 +295,7 @@ footer{
 
 
 
-.contContacto{
-    padding: 70px;
-}
+
 
 @font-face {
     font-family: 'Bombing';
@@ -287,6 +311,5 @@ footer{
     font-family: 'Bombing';
     color: white;
     font-size: 30px;
-    
 }
 
