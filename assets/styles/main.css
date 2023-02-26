@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+.navbar-brand{
+    font-family: 'Bombing';
+    font-size: 37px;
+    margin: 0px 40px 0px 0px;
+}
+
 .nav-link{
     font-family: 'Rye', cursive;
     font-size: 17px;
@@ -83,6 +90,9 @@
     text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.635);
 
 }
+body{
+    background-color: rgb(43, 42, 42);
+}
 
 .bgFondoHome{
     background-image:linear-gradient(rgba(59, 58, 58, 0.63),rgba(0, 0, 0, 0.89)),url(/assets/img/fondo.jpg);
@@ -91,6 +101,7 @@
     background-size: cover;
     background-position: bottom;
     padding: 80px 0px 0px;
+    background-attachment: fixed;
 }
 .titlePrincipal{
     padding: 230px 0px 0px 0px;
@@ -131,9 +142,16 @@
 
 /*Cards*/
 
+#Questions,#Contact{
+    min-height: 100vh;
+}
+#Works>h4{
+    margin-bottom: 55px;
+}
+
 .card{
     background-color: black;
-    margin: 15px 0px;
+    margin: 5px 0px;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
     
 }
@@ -153,7 +171,7 @@
     justify-content: center;
     align-items: center;
 }
-.contGral{
+.contGral,#contQuestions{
     background-color: rgb(43, 42, 42);
 }
 .subContGral{
@@ -161,7 +179,8 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    border-radius: 3px;
+    border-radius: 45px;
+
 
 }
 .card>img{
@@ -170,22 +189,24 @@
 }
 
 /*Comienza seccion questions */
-#Questions{
-    background-color: #474747;
+#Questions,#Contact{
+    background-color: rgb(43, 42, 42);
+
 }
 .contQuestions{
-    background-color: rgb(31, 31, 31);
-    padding: 100px 45px 140px;
+    padding: 65px 45px;
 }
 .accordion-button:focus{
     z-index: 0;
     border:1px solid grey;  
     color: white;
-    box-shadow: unset;
+    box-shadow:unset;
+
 }
 .accordion-item{
     border: 1px solid whitesmoke;
 }
+
 .accordion-button,.accordion-body{
     background-color:rgb(80, 76, 76);
     color: whitesmoke;  
@@ -202,9 +223,7 @@
 }
 
 /*Comienza seccion contact */
-#Contact{
-    background-color: grey;
-}
+
 #Works>h4,#Questions>h4,#Contact>h4{
     text-align: center;
     padding: 85px 0px 10px;
@@ -215,9 +234,12 @@
     background-repeat: no-repeat;
     font-family: 'Chicano font';
     font-size: 45px;
-    margin:0px;
     border-top:1px solid grey;
     
+}
+
+#Questions>h4,#Contact>h4{
+    margin: 55px 0px;
 }
 
 /*Comienza el footer*/
@@ -254,8 +276,4 @@ footer{
     font-size: 30px;
     
 }
-.navbar-brand{
-    font-family: 'Bombing';
-    font-size: 37px;
-    margin: 0px 40px 0px 0px;
-}
+
