@@ -253,14 +253,15 @@ body{
     border-top:1px solid grey;
     
 }
-.form-control{
-    display: inline-block;
-}
+
 form{
-    width: 50%;
+    width: 100%;
 }
-fieldset>input[name="Nombre"]{
-    background-color: beige;
+
+.form-control,fieldset>.form-control:focus{
+    background-color:rgb(80, 79, 79);
+    color: white;
+
 }
 .contContacto{
     padding: 40px 55px;
@@ -281,16 +282,33 @@ fieldset>label{
     margin: 55px 0px;
 }
 
+::-webkit-input-placeholder {
+    color:rgba(255, 255, 255, 0.705) !important;
+}
+
+::-moz-placeholder {
+    color:white;
+}
+::-ms-placeholder {
+    color:white;
+}
+
+::placeholder {
+    color:white
+}
+
 /*Comienza el footer*/
 footer{
     background-color: #1b1b1b;
 
 }
+
 .copyright>h5{
     background-color: #1b1b1b;
     margin-bottom: 0px;
     padding: 30px;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
