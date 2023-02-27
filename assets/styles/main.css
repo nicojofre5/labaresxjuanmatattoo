@@ -29,30 +29,35 @@
     box-shadow:2px 4px 8px rgba(0, 0, 0, 0.447);
 
 }
-.active{
-    border-top: 1px solid whitesmoke;
-    background-color: #474747;
-    border-radius: 4px;
+
+@media only screen and (min-width:1000px){
+    .active{
+        border-top: 1px solid whitesmoke;
+        background-color: #474747;
+        border-radius: 4px;
+    }
+    .nav-link:hover{
+        background-color:rgba(71, 70, 70, 0.947);
+        color: white;
+        border-radius: 4px;
+      
+        
+    }
+    .nav-link::after{
+        content: "";
+        display: block;
+        background: whitesmoke;
+        height: 2px;
+        width: 0;
+        transition: width .3s;
+    }
+    .nav-link:hover::after{
+        width: 100%;
+        transition: width .8s;
+    }
+   
 }
-.nav-link:hover{
-    background-color:rgba(71, 70, 70, 0.947);
-    color: white;
-    border-radius: 4px;
-  
-    
-}
-.nav-link::after{
-    content: "";
-    display: block;
-    background: whitesmoke;
-    height: 2px;
-    width: 0;
-    transition: width .3s;
-}
-.nav-link:hover::after{
-    width: 100%;
-    transition: width .8s;
-}
+
 
 .rrss{
     font-size: 27px;
@@ -116,7 +121,12 @@ body{
     font-size:35px;
 
 }
-
+@media only screen and (max-width:2400px) {
+    .titlePrincipal{
+        padding-top: 320px;
+    }
+    
+}
 .btnReservar{
     padding: 15px 10px;
     margin: 15px 0px 0px;
