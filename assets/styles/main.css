@@ -54,16 +54,13 @@
     transition: width .8s;
 }
 
-
-
-
 .rrss{
     font-size: 27px;
 
 }
 
 .rrss>a{
-    padding: 0px 5px;
+    padding: 0px 2px;
     color:white;    
 }
 
@@ -104,7 +101,7 @@ body{
     background-attachment: fixed;
 }
 .titlePrincipal{
-    padding: 230px 0px 0px 0px;
+    padding: 230px 0px 45px 0px;
     font-size:58px;
     color: aliceblue;
     -webkit-text-stroke: 2px grey;
@@ -126,23 +123,23 @@ body{
     border: none;
     border-radius: 10px;
     background: linear-gradient(0deg, rgb(19, 3, 1) 0%, rgb(65, 21, 3) 100%);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Forum', cursive;
 
 }
 
 .btnReservar:hover,.btn:hover{
     background: linear-gradient(0deg, rgb(97, 26, 17) 0%, rgb(65, 21, 3) 100%);
 
+
 }
-.btnTurno,.btn{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Forum', cursive;
+span>.fa-whatsapp{
+    padding: 0px;
+    margin: 6px;
 }
-.btn{
-    background: linear-gradient(0deg, rgb(19, 3, 1) 0%, rgb(65, 21, 3) 100%);
-    margin: 50px 0px 0px;
-}
+
 /*Cards*/
 
 #Questions,#Contact{

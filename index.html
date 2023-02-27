@@ -52,12 +52,9 @@
 
         <section class="bgFondoHome text-center" id="Home">
             <h3 class="titlePrincipal">¡Conocé mis trabajos y reservá tu turno!</h3>
-         <div>   
-            <button class="btnReservar">
-              <a href="https://api.whatsapp.com/send?phone=5491126095949" target="_blank" class="btnTurno"><span><i class="fa-brands fa-whatsapp"></i></span> Reservar turno</a>
-            </button>
-   
-          </div>
+            
+           <a href="https://api.whatsapp.com/send?phone=5491126095949" target="_blank" class="btnReservar"><span><i class="fa-brands fa-whatsapp"></i></span>Reservar turno</a>
+         
         </section>
          <!--Comienza section cards-->
         <section class="contGral" id="Works">
@@ -65,7 +62,7 @@
             <div class="container subContGral p-5">
                 <div class="row d-flex justify-content-center">
                     <div class="col-xl-10 contCards">
-                        <div class="card" class="">
+                        <div class="card">
                             <img src="assets/img/card1.jpeg" alt="">
                         </div>
                         <div class="card">
@@ -200,12 +197,12 @@
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSix">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <h2 class="accordion-header" id="headingSeven">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                         ¿Se puede pagar con tarjeta o Mercado Pago?
                       </button>
                     </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionBasic">
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionBasic">
                       <div class="accordion-body">
                         <p>
                           No, no se puede abonar con tarjeta por el momento. <br>
@@ -215,12 +212,12 @@
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSix">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <h2 class="accordion-header" id="headingEight">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                         ¿Se puede pagar con tarjeta o Mercado Pago?
                       </button>
                     </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionBasic">
+                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionBasic">
                       <div class="accordion-body">
                         <p>
                           No, no se puede abonar con tarjeta por el momento. <br>
@@ -240,19 +237,19 @@
               <form action="mailto:labaresxjuanma@outlook.com?Subject=Consulta%20de%20tattoo" enctype="text/plain" method="post">
               
                   <fieldset>
-                    <label for="Nombre" class="form-label" name="Nombre">Nombre</label>
+                    <label for="Nombre" class="form-label" name="nombre">Nombre</label>
                       <input type="text"
-                      class="form-control" name="Nombre" id="Nombre" aria-describedby="helpId" placeholder="Escriba su nombre" required>
+                      class="form-control" name="Nombre" id="Nombre" aria-describedby="idComment" placeholder="Escriba su nombre" required>
                 
                   </fieldset>
                   <fieldset>
-                    <label for="Apellido" class="form-label" name="Apellido">Apellido</label>
+                    <label for="Apellido" class="form-label" name="apellido">Apellido</label>
                       <input type="text"
-                      class="form-control" name="Apellido" id="Apellido" aria-describedby="LastName" placeholder="Escriba su apellido" required>
+                      class="form-control" name="Apellido" id="Apellido" aria-describedby="idComment" placeholder="Escriba su apellido" required>
                   </fieldset>
                   <fieldset>
                     <label for="Consulta" class="form-label">Comentarios</label>
-                    <textarea class="form-control" name="Consulta" id="Consulta" rows="5"required placeholder="Escriba su consulta" ></textarea>
+                    <textarea class="form-control" name="Consulta" id="Consulta" rows="5" required placeholder="Escriba su consulta" ></textarea>
                   </fieldset>
                   <div class="d-flex justify-content-center">
                     <button type="submit" class="btn">Enviar</button>
