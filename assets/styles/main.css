@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+/* Navbar comienza */
 .navbar-brand{
     font-family: 'Bombing';
     font-size: 37px;
@@ -29,7 +30,7 @@
     box-shadow:2px 4px 8px rgba(0, 0, 0, 0.447);
 
 }
-
+/* Eliminanndo hoover en dispositivos moviles */
 @media only screen and (min-width:1000px){
     .active{
         border-top: 1px solid whitesmoke;
@@ -58,7 +59,7 @@
    
 }
 
-
+/* Logo de redes sociales */
 .rrss{
     font-size: 27px;
 
@@ -92,6 +93,7 @@
     text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.635);
 
 }
+/* Portada principal de pagina */
 body{
     background-color: rgb(43, 42, 42);
 }
@@ -103,7 +105,7 @@ body{
     background-size: cover;
     background-position: bottom;
     padding: 80px 0px 0px;
-    background-attachment: fixed;
+  
 }
 .titlePrincipal{
     padding:150px 25px 36px;
@@ -113,7 +115,7 @@ body{
     font-family: 'Creepster', cursive;
     text-shadow: 4px 5px rgba(0, 0, 0, 0.58);    
 }
-
+/* Centrado de texto principal dependiendo del dispositivo */
 @media only screen and (min-width:300px) and (max-width:380px)  {
     .titlePrincipal{
         padding: 130px 20px 45px 20px;
@@ -170,7 +172,7 @@ body{
     color:rgb(196, 196, 196);
     font-size:35px;padding-bottom: 4px;
 }
-
+/* Btn debajo de texto principal  */
 .btnReservar{
     padding: 15px 10px;
     margin: 15px 0px 0px;
@@ -194,15 +196,16 @@ span>.fa-whatsapp{
     margin: 6px;
 }
 
-/*Cards*/
+
 
 #Questions,#Contact{
     min-height: 100vh;
 }
+/* Comienza seccion works */
 #Works>h4{
     margin-bottom: 55px;
 }
-
+/*Cards*/
 .card{
     background-color: black;
     margin: 5px 0px;
@@ -361,10 +364,13 @@ footer{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.logoFooter{
+    font-family: 'Bombing';
+    color: white;
+    font-size: 30px;
+}
 
-
-
-
+/* Importacion de fuentes */
 
 @font-face {
     font-family: 'Bombing';
@@ -374,11 +380,5 @@ footer{
 @font-face {
     font-family: 'Chicano font';
     src: url(/assets/fonts/ChicanosPersonalUseRegular-qZDw5.ttf);
-}
-
-.logoFooter{
-    font-family: 'Bombing';
-    color: white;
-    font-size: 30px;
 }
 
