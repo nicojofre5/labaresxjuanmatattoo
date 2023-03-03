@@ -21,4 +21,4 @@ document.onclick=function(e){
     }
 }
 
-
+//esconder menú on click bootstrap
