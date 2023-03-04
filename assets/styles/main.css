@@ -7,7 +7,7 @@
 /* Navbar comienza */
 .navbar-brand{
     font-family: 'Bombing';
-    font-size: 37px;
+    font-size: 34px;
     margin: 0px 40px 0px 0px;
 }
 
@@ -16,8 +16,13 @@
     font-size: 17px;
     color:white; 
     letter-spacing: 1.4px;
-    padding: 8px 10px;
+    padding: 8px 20px;
+    display: inline;
+   
 
+}
+li.nav-item{
+    padding-top: 10px;
 }
 .nav-item{
     margin: 0px 4px 0px;
@@ -40,21 +45,9 @@
     .nav-link:hover{
         background-color:rgba(71, 70, 70, 0.947);
         color: white;
-        border-radius: 4px;
+        border-radius: 3px;
       
         
-    }
-    .nav-link::after{
-        content: "";
-        display: block;
-        background: whitesmoke;
-        height: 2px;
-        width: 0;
-        transition: width .3s;
-    }
-    .nav-link:hover::after{
-        width: 100%;
-        transition: width .8s;
     }
    
 }
@@ -111,7 +104,7 @@ body{
     padding:150px 25px 36px;
     -webkit-text-stroke:1px rgb(63, 23, 31);
     color:rgb(255, 255, 255);
-    font-size:60px;
+    font-size:40px;
     padding-bottom: 4px;
     -webkit-text-stroke: 1px grey;
     font-family:'Patched';
@@ -122,7 +115,7 @@ body{
 /* Centrado de texto principal dependiendo del dispositivo */
 @media only screen and (min-width:300px) and (max-width:380px)  {
     .titlePrincipal{
-        padding: 130px 20px 45px 20px;
+        padding: 160px 20px 45px 20px;
     }
     
 }
@@ -148,7 +141,7 @@ body{
 @media only screen and (min-width:901px) and (max-width:1000px)  {
     .titlePrincipal{
         padding: 390px 40px 45px;
-        font-size: 95px;
+        font-size: 75px;
     }
     .bgFondoHome>a{
         font-size: 35px;
@@ -232,7 +225,9 @@ span>.fa-whatsapp{
 }
 .contGral,#contQuestions{
     background-color: rgb(43, 42, 42);
+
 }
+
 .subContGral{
     background-image:linear-gradient(rgba(23, 23, 23, 0.897),rgba(57, 55, 55, 0.619)),url(https://wallpaper.dog/large/973634.jpg);
     background-repeat: no-repeat;
