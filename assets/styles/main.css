@@ -109,11 +109,15 @@ body{
 }
 .titlePrincipal{
     padding:150px 25px 36px;
-    font-size:50px;
-    color: aliceblue;
-    -webkit-text-stroke: 2px grey;
-    font-family: 'Creepster', cursive;
-    text-shadow: 4px 5px rgba(0, 0, 0, 0.58);    
+    -webkit-text-stroke:1px rgb(63, 23, 31);
+    color:rgb(255, 255, 255);
+    font-size:60px;
+    padding-bottom: 4px;
+    -webkit-text-stroke: 1px grey;
+    font-family:'Patched';
+    text-shadow: 4px 5px rgba(0, 0, 0, 0.58); 
+    
+       
 }
 /* Centrado de texto principal dependiendo del dispositivo */
 @media only screen and (min-width:300px) and (max-width:380px)  {
@@ -122,10 +126,11 @@ body{
     }
     
 }
+/* Celular */
 @media only screen and (min-width:381px) and (max-width:425px)  {
     .titlePrincipal{
         padding: 180px 25px 45px;
-        font-size: 65px;
+        font-size: 45px;
     }
     
 }
@@ -133,7 +138,7 @@ body{
 @media only screen and (min-width:765px) and (max-width:900px)  {
     .titlePrincipal{
         padding: 390px 0px 45px 0px;
-        font-size: 75px;
+        font-size: 55px;
     }
     .bgFondoHome>a{
         font-size: 25px;
@@ -150,28 +155,25 @@ body{
     }
     
 }
+/* Notebook */
 @media only screen and (min-width:1001px) and (max-width:1600px)  {
     .titlePrincipal{
-        padding: 220px 55px 45px;
-        font-size: 65px;
+        padding: 180px 55px 45px;
+        font-size: 35px;
     }
     
 }
 @media only screen and (min-width:1601px) and (max-width:2500px)  {
     .titlePrincipal{
         padding: 315px 55px 45px;
-        font-size: 75px;
+        font-size: 65px;
     }
     .bgFondoHome>a{
         font-size:25px;
     }
     
 }
-.titlePrincipal>h3{
-    -webkit-text-stroke:1px rgb(63, 23, 31);
-    color:rgb(196, 196, 196);
-    font-size:35px;padding-bottom: 4px;
-}
+
 /* Btn debajo de texto principal  */
 .btnReservar{
     padding: 15px 10px;
@@ -186,7 +188,7 @@ body{
 
 }
 
-.btnReservar:hover,.btn:hover{
+.btnReservar:hover{
     background: linear-gradient(0deg, rgb(97, 26, 17) 0%, rgb(65, 21, 3) 100%);
 
 
@@ -326,12 +328,17 @@ form{
     border-radius: 4px;
     display: flex;
     justify-content: center;
+    margin-bottom:40px;
 
 }
 fieldset>label{
     margin: 20px 0px;
 }
-
+.btn{
+    background-color: rgb(101, 15, 4);
+    color: white;
+    margin: 18px 0px 0px;
+}
 #Questions>h4,#Contact>h4{
     margin: 55px 0px;
 }
@@ -346,9 +353,18 @@ fieldset>label{
 ::-ms-placeholder {
     color:white;
 }
+input:focus,textarea:hover{
+    box-shadow: 1px 2px 2px 1px grey !important;
+    border: 1px solid grey !important;
+}
 
 ::placeholder {
     color:white
+}
+.btn:hover,.btn:focus{
+    background-color:rgb(75, 11, 3);
+    box-shadow: 1px 1px 1px 1px rgba(52, 51, 51, 0.603);
+
 }
 
 /*Comienza el footer*/
@@ -360,14 +376,14 @@ footer{
 .copyright>h5{
     background-color: #1b1b1b;
     margin-bottom: 0px;
-    padding: 30px;
+    padding: 15px 0px 10px;
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Russo One';
 }
 .logoFooter{
     font-family: 'Bombing';
     color: white;
-    font-size: 30px;
+    font-size: 37px;
 }
 
 /* Importacion de fuentes */
@@ -381,4 +397,19 @@ footer{
     font-family: 'Chicano font';
     src: url(/assets/fonts/ChicanosPersonalUseRegular-qZDw5.ttf);
 }
-
+@font-face {
+    font-family: 'Russo One';
+    src: url(/assets/fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+    font-family:'Auratype' ;
+    src: url(/assets/fonts/The\ Auratype\ DEMO.otf);
+}
+@font-face {
+    font-family:'Patched';
+    src: url(/assets/fonts/Revalia-Regular.ttf);
+}
+@font-face {
+    font-family:'Komodo';
+    src: url(/assets/fonts/komodo\ inline\ grunge.otf);
+}
