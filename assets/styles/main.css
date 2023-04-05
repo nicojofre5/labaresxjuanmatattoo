@@ -50,7 +50,6 @@ li.nav-item{
 /* Eliminanndo hoover en dispositivos moviles */
 @media only screen and (min-width:1000px){
     .active{
-        border-top: 1px solid whitesmoke;
         background-color: #474747;
         border-radius: 4px;
     }
@@ -163,7 +162,7 @@ body{
 /* Notebook */
 @media only screen and (min-width:1001px) and (max-width:1600px)  {
     .titlePrincipal{
-        padding: 220px 55px 45px;
+        padding: 250px 55px 45px;
         font-size: 5em;
     }
     
@@ -182,7 +181,7 @@ body{
 /* Btn debajo de texto principal  */
 .btnReservar{
     padding: 15px 10px;
-    margin: 15px 0px 0px;
+    margin: 15px 65px 0px;
     border: none;
     border-radius: 10px;
     background: linear-gradient(0deg, rgb(19, 3, 1) 0%, rgb(65, 21, 3) 100%);
