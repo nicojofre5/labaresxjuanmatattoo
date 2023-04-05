@@ -5,8 +5,8 @@
     
 }
 :root{
-    --fontprimary: font-family:'Patched';
-    --fontsecondary: font-family: 'Russo One';
+    --fontprimary:'Monserrat';
+    --fontsecondary:'Revalia';
 }
 html{
     font-size: 62.5%;
@@ -65,7 +65,7 @@ li.nav-item{
 
 /* Logo de redes sociales */
 .rrss{
-    font-size: 27px;
+    font-size: 2.7em;
 
 }
 
@@ -118,7 +118,6 @@ body{
     font-size:3.8em;
     padding-bottom: 4px;
     -webkit-text-stroke: 1px grey;
-   
     text-shadow: 4px 5px rgba(0, 0, 0, 0.58); 
     
        
@@ -134,18 +133,19 @@ body{
 @media only screen and (min-width:381px) and (max-width:425px)  {
     .titlePrincipal{
         padding: 180px 25px 45px;
-        font-size: 45px;
+        font-size: 4.5em;
     }
     
 }
 
 @media only screen and (min-width:765px) and (max-width:900px)  {
     .titlePrincipal{
-        padding: 310px 0px 45px 0px;
+        padding: 310px 20px 45px 5px;
+        margin-left: 10px;
         font-size:4.3em;
     }
     .bgFondoHome>a{
-        font-size: 25px;
+        font-size:2em;
     }
     
 }
@@ -155,7 +155,7 @@ body{
         font-size: 4.5em;
     }
     .bgFondoHome>a{
-        font-size: 35px;
+        font-size: 2.8em;
     }
     
 }
@@ -181,20 +181,20 @@ body{
 /* Btn debajo de texto principal  */
 .btnReservar{
     padding: 15px 10px;
-    margin: 15px 65px 0px;
-    border: none;
+    margin: 15px 20px 0px;
+    border: 1px solid rgb(182, 182, 182);
     border-radius: 10px;
-    background: linear-gradient(0deg, rgb(19, 3, 1) 0%, rgb(65, 21, 3) 100%);
+    background-color:transparent;
     color: white;
     text-decoration: none;
-    font-size: 20px;
-    font-family: 'Forum', cursive;
+    font-size:1.4em;
+    font-family:var(--fontprimary);
 
 }
 
 .btnReservar:hover{
-    background: linear-gradient(0deg, rgb(97, 26, 17) 0%, rgb(65, 21, 3) 100%);
-
+    background-color: #2e2e2e;
+    transition: 1.4s;
 
 }
 span>.fa-whatsapp{
@@ -396,26 +396,16 @@ footer{
 
 @font-face {
     font-family: 'Bombing';
-    src: url(/assets/fonts/Bombing.ttf);
+    src: url(../fonts/Bombing.ttf);
 }
 
 @font-face {
-    font-family: 'Chicano font';
-    src: url(/assets/fonts/ChicanosPersonalUseRegular-qZDw5.ttf);
+    font-family:'Revalia';
+    src: url(../fonts/RussoOne-Regular.ttf);
 }
+
+
 @font-face {
-    font-family: 'Russo One';
-    src: url(/assets/fonts/RussoOne-Regular.ttf);
-}
-@font-face {
-    font-family:'Auratype' ;
-    src: url(/assets/fonts/The\ Auratype\ DEMO.otf);
-}
-@font-face {
-    font-family:'Patched';
-    src: url(/assets/fonts/Revalia-Regular.ttf);
-}
-@font-face {
-    font-family:'Komodo';
-    src: url(/assets/fonts/komodo\ inline\ grunge.otf);
+    font-family:'Monserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
 }
