@@ -4,20 +4,32 @@
     box-sizing: border-box;
     
 }
+:root{
+    --fontprimary: font-family:'Patched';
+    --fontsecondary: font-family: 'Russo One';
+}
+html{
+    font-size: 62.5%;
+}
 /* Navbar comienza */
 .navbar-brand{
     font-family: 'Bombing';
     font-size: 34px;
     margin: 0px 40px 0px 0px;
 }
+.navbar-toggler-icon{
+    font-size: 1.8em;
+}
+
 
 .nav-link{
-    font-family: 'Rye', cursive;
-    font-size: 17px;
+    font-family: var(--fontprimary);
+    font-size: 1.8em;
     color:white; 
     letter-spacing: 1.4px;
     padding: 8px 20px;
-    display: inline;
+    margin: 4px 0px;
+    display: inline-block;
    
 
 }
@@ -104,10 +116,10 @@ body{
     padding:150px 25px 36px;
     -webkit-text-stroke:1px rgb(63, 23, 31);
     color:rgb(255, 255, 255);
-    font-size:40px;
+    font-size:3.8em;
     padding-bottom: 4px;
     -webkit-text-stroke: 1px grey;
-    font-family:'Patched';
+   
     text-shadow: 4px 5px rgba(0, 0, 0, 0.58); 
     
        
@@ -130,8 +142,8 @@ body{
 
 @media only screen and (min-width:765px) and (max-width:900px)  {
     .titlePrincipal{
-        padding: 390px 0px 45px 0px;
-        font-size: 55px;
+        padding: 310px 0px 45px 0px;
+        font-size:4.3em;
     }
     .bgFondoHome>a{
         font-size: 25px;
@@ -141,7 +153,7 @@ body{
 @media only screen and (min-width:901px) and (max-width:1000px)  {
     .titlePrincipal{
         padding: 390px 40px 45px;
-        font-size: 75px;
+        font-size: 4.5em;
     }
     .bgFondoHome>a{
         font-size: 35px;
@@ -151,18 +163,18 @@ body{
 /* Notebook */
 @media only screen and (min-width:1001px) and (max-width:1600px)  {
     .titlePrincipal{
-        padding: 180px 55px 45px;
-        font-size: 35px;
+        padding: 220px 55px 45px;
+        font-size: 5em;
     }
     
 }
 @media only screen and (min-width:1601px) and (max-width:2500px)  {
     .titlePrincipal{
         padding: 315px 55px 45px;
-        font-size: 65px;
+        font-size: 6em;
     }
     .bgFondoHome>a{
-        font-size:25px;
+        font-size:2.3em;
     }
     
 }
