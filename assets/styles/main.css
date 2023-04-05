@@ -33,6 +33,13 @@ html{
    
 
 }
+.nav-link:hover{
+  
+    color: rgba(184, 249, 232, 0.794);
+
+  
+    
+}
 li.nav-item{
     padding-top: 10px;
 }
@@ -103,7 +110,7 @@ body{
 }
 
 .bgFondoHome{
-    background-image:linear-gradient(rgba(59, 58, 58, 0.63),rgba(0, 0, 0, 0.89)),url(/assets/img/fondo.jpg);
+    background-image:linear-gradient(rgba(59, 58, 58, 0.63),rgba(0, 0, 0, 0.89)),url(../img/fondo.jpg);
     background-repeat: no-repeat;
     min-height: 100vh;
     background-size: cover;
@@ -198,8 +205,8 @@ body{
 /* Btn debajo de texto principal  */
 
 .btnReservar:hover{
-    background-color: #2e2e2e;
-    transition: 1.4s;
+    background-color: #2e2e2ecb;
+    transition: 1s;
 
 }
 span>.fa-whatsapp{
@@ -218,13 +225,16 @@ span>.fa-whatsapp{
 }
 /*Cards*/
 .card{
-    background-color: black;
-    margin: 5px 0px;
+    background-color: black;clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
     
 }
 .card>img{
     border-radius: 7px;
+    position:relative;
+    left: 15%;
+    border:15px solid black;
 }
 .card:hover{
     transform: scale(1.02);
@@ -234,7 +244,6 @@ span>.fa-whatsapp{
 .contCards{
     display: flex;
     flex-direction:row;
-    column-gap: 15px;
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
@@ -245,17 +254,17 @@ span>.fa-whatsapp{
 }
 
 .subContGral{
-    background-image:linear-gradient(rgba(23, 23, 23, 0.897),rgba(57, 55, 55, 0.619)),url(https://wallpaper.dog/large/973634.jpg);
+    background-image:linear-gradient(rgba(23, 23, 23, 0.613),rgba(1, 1, 1, 0.392)),url(https://images.unsplash.com/photo-1581362716668-90cdec6b4882?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    border-radius: 45px;
-
+    border-radius: 10px;
 
 }
 .card>img{
-    width: 280px;
-    height: 374px;
+    width: 250px;
+    height: 324px;
+
 }
 
 /*Comienza seccion questions */
@@ -275,9 +284,9 @@ span>.fa-whatsapp{
 }
 .accordion-item{
     border: 1px solid whitesmoke;
-    font-family:'Forum',cursive;
-    font-size: 17px;
-    letter-spacing: 1.5px;
+    font-family:var(--fontprimary);
+    font-size: 1.4em;
+    letter-spacing: 1.2px;
     
 }
 
@@ -289,8 +298,8 @@ span>.fa-whatsapp{
 
 .accordion-button{
     font-size: 20px;
-    font-family:sans-serif;
-    font-weight: bold;
+    font-family: var(--fontprimary);
+ 
 }
 
 .accordion-button.collapsed::after,.accordion-button:not(.collapsed)::after{
@@ -310,14 +319,14 @@ span>.fa-whatsapp{
 #Works>h4,#Questions>h4,#Contact>h4{
     text-align: center;
     padding: 85px 0px 10px;
-    background-image:linear-gradient(rgba(65, 61, 61, 0.658),rgba(0, 0, 0, 0.904)),url(/assets/img/separador.jpg);
+    background-image:linear-gradient(rgba(27, 26, 26, 0.658),rgba(0, 0, 0, 0.904)),url(/assets/img/separador.jpg);
     background-position: center;
     color: white;
     background-size:cover;
     background-repeat: no-repeat;
-    font-family: 'Chicano font';
-    font-size: 45px;
-    border-top:1px solid grey;
+    font-family: var(--fontsecondary);
+    font-size: 3.4em;
+    border-top:1px solid rgb(60, 59, 59);
     
 }
 
