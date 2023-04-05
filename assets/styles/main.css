@@ -143,64 +143,6 @@ body{
 }
 
 /* Centrado de texto principal dependiendo del dispositivo */
-@media only screen and (min-width:300px) and (max-width:380px)  {
-    .titlePrincipal{
-        padding: 160px 20px 45px 20px;
-    }
-    
-}
-/* Celular */
-@media only screen and (min-width:381px) and (max-width:425px)  {
-    .titlePrincipal{
-        padding: 180px 25px 45px;
-        font-size: 4.5em;
-    }
-    
-}
-
-@media only screen and (min-width:765px) and (max-width:900px)  {
-    .titlePrincipal{
-        padding: 260px 20px 45px 5px;
-        margin-left: 10px;
-        font-size:4.3em;
-    }
-    .bgFondoHome>a{
-        font-size:2em;
-    }
-    
-}
-@media only screen and (min-width:901px) and (max-width:1000px)  {
-    .titlePrincipal{
-        padding: 390px 40px 45px;
-        font-size: 4.5em;
-    }
-    .bgFondoHome>a{
-        font-size: 2.8em;
-    }
-    
-}
-/* Notebook */
-@media only screen and (min-width:1001px) and (max-width:1600px)  {
-    .titlePrincipal{
-        padding: 250px 40px 45px;
-        font-size: 5.2em;
-    }
-    .btnReservar{
-        font-size: 1.8rem;
-        margin-left: 45px;
-    }
-    
-}
-@media only screen and (min-width:1601px) and (max-width:2500px)  {
-    .titlePrincipal{
-        padding: 315px 55px 45px;
-        font-size: 6em;
-    }
-    .bgFondoHome>a{
-        font-size:2.3em;
-    }
-    
-}
 
 /* Btn debajo de texto principal  */
 
@@ -225,21 +167,27 @@ span>.fa-whatsapp{
 }
 /*Cards*/
 .card{
-    background-color: black;clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
-
+   
+    background-color:transparent;
     box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
     
 }
+
+
 .card>img{
-    border-radius: 7px;
-    position:relative;
-    left: 15%;
-    border:15px solid black;
+ 
+    filter: grayscale(0.9);
+    padding: 5px;
+ 
 }
 .card:hover{
     transform: scale(1.02);
-    transition: 0.5s;
-    filter:brightness(0.6);
+    transition: 2.5s;
+    cursor: pointer;
+  
+}
+.card img:hover{
+    filter: none;
 }
 .contCards{
     display: flex;
@@ -422,4 +370,102 @@ footer{
 @font-face {
     font-family:'Monserrat';
     src: url(../fonts/Montserrat-Regular.ttf);
+}
+@media only screen and (min-width:300px) and (max-width:380px)  {
+    .titlePrincipal{
+        padding: 160px 20px 45px 20px;
+    }
+    
+}
+/* Celular */
+@media only screen and (min-width:381px) and (max-width:425px)  {
+    .titlePrincipal{
+        padding: 180px 25px 45px;
+        font-size: 4.5em;
+    }
+    .card{
+        position: block;
+        clip-path:none;
+    }
+    .card1{
+        position: relative;
+        top: 0px;
+        left:0px;
+    }
+    .card>img{
+        height:160px;
+        width: 100px;
+
+    }
+    
+}
+
+@media only screen and (min-width:765px) and (max-width:900px)  {
+    .titlePrincipal{
+        padding: 260px 20px 45px 5px;
+        margin-left: 10px;
+        font-size:4.3em;
+    }
+    .bgFondoHome>a{
+        font-size:2em;
+    }
+    
+}
+@media only screen and (min-width:901px) and (max-width:1000px)  {
+    .titlePrincipal{
+        padding: 390px 40px 45px;
+        font-size: 4.5em;
+    }
+    .bgFondoHome>a{
+        font-size: 2.8em;
+    }
+    
+}
+/* Notebook */
+@media only screen and (min-width:1001px) and (max-width:1600px)  {
+    .titlePrincipal{
+        padding: 250px 40px 45px;
+        font-size: 5.2em;
+    }
+    .btnReservar{
+        font-size: 1.8rem;
+        margin-left: 45px;
+    }
+    .card{clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);}
+    .card1{
+        position: relative;
+        top:385px;
+        left:0px; 
+    }
+    .card2{
+        position:relative;
+        top:220px;
+        right: 120px;
+    }
+    .card3{
+        position: relative;
+        right:245px;
+        top: 50px;
+    }
+    .card4{
+        position: relative;
+        right: 365px;
+        top:215px;
+    }
+    .card5{
+        top: 60px;
+        left: 12px;
+    }
+    
+    
+}
+@media only screen and (min-width:1601px) and (max-width:2500px)  {
+    .titlePrincipal{
+        padding: 315px 55px 45px;
+        font-size: 6em;
+    }
+    .bgFondoHome>a{
+        font-size:2.3em;
+    }
+    
 }
